@@ -9,7 +9,7 @@ def read_and_modify_file(input_filename, output_filename):
         with open(output_filename, 'w') as outfile:
             outfile.writelines(modified_content)
 
-        print(f"✅ File has been read from '{input_filename}' and written to '{output_filename}'.")
+        print(f" File has been read from '{input_filename}' and written to '{output_filename}'.")
 
     except FileNotFoundError:
         print(f"❌ Error: The file '{input_filename}' was not found.")
